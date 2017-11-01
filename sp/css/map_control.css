@@ -1,0 +1,84 @@
+
+
+.map-control-button {
+    background-color: #FFFFFF;
+}
+
+.map-control-button.toggle:hover {
+    background-color: #F0F0F0; 
+}
+
+
+.map-control-button.on {
+    background-color: #CCCCCC; 
+}
+
+.map-control-button.on.toggle:hover {
+    background-color: #AAAAAA;
+}
+
+.map-control-wrapper {
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    font-size: small;
+    -webkit-user-select: none; /* Chrome/Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none;
+}
+
+.map-control-main-contents {
+    background: white;
+    border-radius: 5px 0px 0px 5px;
+    /*box-shadow: 0 0 1px 1px #DBDBDB;*/
+    position: relative;
+    top:0px;
+    right: 0px;
+    z-index: 99;
+    float:left;
+}
+
+.map-control-tab {
+    background: white;
+    float:left;
+    width: 2em;
+    height: 2em;
+    border-radius: 3px 0px 0px 3px;
+    /*box-shadow: 0 0 1px 1px #DBDBDB;*/
+    z-index: 0;
+    cursor: pointer;
+    position: relative;
+    left: 0.2em;
+    top: 1em;
+    text-align: center;
+}
+
+.map-control-layerslist {
+    margin: 5px;
+    padding: 1px;
+    background: #EEEEEE;
+    cursor:pointer;
+    width: 150px;
+}
+
+.map-control-layer {
+    margin: 2px;
+    padding: 0px 3px;
+}
+
+#tcontent .map-control-buttons {
+    margin: auto;
+    margin-bottom: 0.5em;
+    width: 150px;
+   /* table-layout: fixed; */
+}
+
+.map-control-buttons td {
+    box-shadow: 0 0 1px 1px #E0E0E0;
+    padding: 0.25em;
+    width: 50%;
+}
+
+.map-control-buttons tr {
+        height: 50%;
+}

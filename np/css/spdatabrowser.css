@@ -1,0 +1,254 @@
+body, html {
+    height: 100%; 
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    overflow:hidden;margin:0; 
+    position:absolute;
+    left:0px;
+    top:0px;
+    color:#333;
+    font: 15px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#mapcwrapper {
+    flex: 1 1 auto;
+    position: relative !important;
+    
+}
+#tcontent {
+    display: flex;
+    flex-flow: column;
+    height:100%;
+    background-color: gray;
+}
+#mapheader {
+    flex: 0 1 30px;
+}
+#menu-wrap {
+    border-radius: 0px !important;
+    width: 100% !important;
+    height: 30px !important;
+    padding: 0 !important;
+    min-width: 900px !important;
+}
+#menu {
+    font: 0.85em/1.3 Helvetica-Neue, Helvetica, Arial, sans-serif !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    line-height: 30px !important;
+}
+#menu_search_button {
+	background-image: -webkit-linear-gradient(top, rgb(187, 187, 187), rgb(68, 68, 68)) !important;
+	background-image: -moz-linear-gradient(top, rgb(187, 187, 187), rgb(68, 68, 68)) !important;
+	background-image: -ms-linear-gradient(top, rgb(187, 187, 187), rgb(68, 68, 68)) !important;
+	background-image: -o-linear-gradient(top, #224488, #153088) !important;
+	border-radius: 7px 7px 7px 7px !important;
+	padding: 2px 6px !important;
+	color: rgb(255, 255, 255) !important;
+    font: 0.85em/1.3 Helvetica-Neue, Helvetica, Arial, sans-serif !important;
+    margin: 0 !important;
+    height:20px !important;
+    width:auto !important;
+}
+ul#menu li a {
+    padding: 0 1.25em 0em 1.25em !important;
+}
+#menu_search_link {
+    float: right;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+#mapc {
+    position: fixed;
+    height:100%;
+    width: 100%;
+    border: none;
+}
+#resultslist {
+    position:absolute;
+    left:0px;
+    top:0px; 
+    width: 250px; 
+    height: 100%; 
+    border-width: 1px 0px 1px 1px; 
+    border-color: #444; 
+    border-style: solid; 
+    text-align: left;
+}
+#listdata .result-header {
+    padding:3px 5px;
+    line-height:1em;
+    margin: 0px;
+    border-bottom: 2px solid #333;
+}
+
+#listdata h4 {
+    padding:3px 5px;
+    line-height:1em;
+    margin: 0px;
+    border-bottom: 2px solid #333;
+}
+
+#listdata .result-title {
+    font-weight: bold;
+    margin-right: 0.5em;
+}
+
+#ecresults div,#mgdsresults div,#gcresults div,#gmrtresults div,#sesarresults div,#abstract div,#data_layer_descriptions div {
+    padding: 5px;
+    font-weight:200;
+}
+#abstract {
+    display: block;
+}
+#data_layer_descriptions {
+    display: none;
+}
+
+#listdata a {color:#4682b4;}
+#listdata a:link, #footer a:link {
+  border: none;
+  /*font-weight:bold;*/
+  color: #4682b4;
+  text-decoration: none;
+}
+#listdata a:hover, #footer a:hover, #portal_menu ul li a.cur {
+  /*background-color: #aaa;
+  border-bottom: 1px solid #000;
+  text-shadow: 2px 2px 2px #666;*/
+  color: #d2691e;
+  border-bottom: 1px solid #d2691e;
+  text-decoration: none;
+}
+#listdata {padding:0;height:100%;width:100%;}
+.tcontent {
+    display: none;
+}
+.turndown {
+    color: #002783;
+    cursor: pointer;
+    
+}
+
+.tbox .tcontent {
+	border-color: gray;
+	border-width: 2px;
+	border-style: solid;
+	padding-right: 1em;
+}
+
+#usapresults,#ecresults,#mgdsresults,#gcresults,#gmrtresults,#sesarresults,#abstract,#data_layer_descriptions {
+    padding:5px 5px 15px 5px;
+}
+#layercontrol .layerdivtitle {
+    border-color: #333;
+}
+#mapclient {
+    color: #333;
+}
+.boundscontrol {
+    position:absolute;
+    bottom:10px;
+    right: 0px;
+    -webkit-user-select: none; /* Chrome/Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none;
+}
+
+.bounds-control-tab {
+    background: white;
+    float:left;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    border-radius: 3px 0px 0px 3px;
+    /*box-shadow: 0 0 1px 1px #DBDBDB;*/
+    z-index: 0;
+    cursor: pointer;
+    position: relative;
+    left: 0.2em;
+    top: 1em;
+    text-align: center;
+}
+
+.boundscontainer {
+    float: left;
+}
+.boundscontainer .title {
+    line-height:1.2em;
+    font-weight:700;
+    font-size:1.1em;
+    padding-left:5px;
+}
+.boundscontainer .instructions {
+    width:180px;
+    font-size:.9em;
+    line-height:1em;
+    padding:0px 5px 5px 5px;
+}
+.boundscontainer .focussitecontainer {
+    width: 100%;
+    position: relative;
+    text-align:center
+}
+.boundscontainer .focussitecontainer div {
+    margin: 0 auto;
+    width:190px;
+    text-align:left;
+}
+.boundscontainer .focussitecontainer select {
+    width:190px;
+    margin-bottom:5px;
+}
+#bounds {
+    line-height:1em;
+}
+#bounds .nsbounds {
+    margin: 0px auto;
+    width: 75px;
+}
+#bounds .webounds {
+    margin: 0px auto;
+    width: 170px;
+}
+#bounds .wespacer {
+    float:left;
+    display:block;
+    width:16px;
+    height:16px;
+}
+
+#bounds {
+    width: 100%;
+    position: relative;
+    margin-bottom:20px;
+}
+#bounds .tb {
+    clear:both;
+    margin:auto;
+    width: 80px;
+}
+#bounds .m {
+    clear:both;
+    margin:auto;
+    width: 250px;
+}
+#bounds .m div {
+    float: left;
+    margin: 0px 20px;
+}
+#bounds input {
+    display: block;
+    width: 70px;
+    float:left;
+}
+#bounds label {
+    display: block;
+    width: 70px;
+}
+
+.latlonelev-control {
+    bottom: 40px;
+}

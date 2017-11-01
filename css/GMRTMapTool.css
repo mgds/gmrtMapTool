@@ -1,0 +1,269 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 8, 2015, 9:56:45 AM
+    Author     : johnjon
+*/
+
+#bounds {
+    width: 100%;
+    position: relative;
+    /*margin-bottom:20px;*/
+}
+#bounds .tb {
+    clear:both;
+    margin:auto;
+    width: 80px;
+}
+#bounds .m {
+    clear:both;
+    margin:auto;
+    width: 250px;
+}
+#bounds .m div {
+    float: left;
+    margin: 0px 20px;
+}
+#bounds input {
+    display: block;
+    width: 70px;
+    float:left;
+}
+#bounds label {
+    display: block;
+    width: 70px;
+}
+#cmg fieldset {
+    margin: 5px 5px;
+}
+.mgdslogo {
+/*background: -moz-linear-gradient(right center , rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.5) 50px) repeat scroll 0 0 rgba(0, 0, 0, 0);*/
+    padding: 3px;
+    display: block;
+}
+input.wesnvalue {
+    width:75px !important;
+    padding:1px 0px !important;
+    text-align:center;
+    /*border:1px dotted #dddddd !important;*/
+    border: none !important;
+    background-color:#eeeeee !important;
+    border-radius: 3px;
+}
+#downselected {
+    width:120px;
+    background-color:#dddddd;
+    border:1px solid #002288;
+    border-radius:4px;
+    padding:4px 8px;
+    text-align:center;
+    font-weight:700;
+    font-size:1.2em;
+    text-align:center;
+    margin:5px auto;
+    cursor: pointer;
+}
+#downselected:hover {
+    background-color:#002288;
+    color: white;
+}
+/*cmg results div*/
+#cmg_results h4 {
+    margin-top: .2em !important;
+}
+#cmg_results th span,td span {
+    cursor: pointer;
+}
+a.lightbox {
+    border-bottom: none !important;
+    background-color: transparent !important;
+}
+div#gmrtcitation {
+    margin-bottom:10px;
+}
+div#imgboxwrapper {
+    /*width:200px;*/
+    float:left;
+    margin: 0px 5px;
+    position:relative;
+}
+div#imgbox {
+    width:150px;
+    height:150px;
+    border:1px solid gray;
+    display:table;
+}
+div#imgbox div {
+    display:table-cell;
+    vertical-align:middle;
+    text-align: center;
+}
+div#imgbox img {
+    max-height:130px;
+    max-width:130px;
+}
+#downimg {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom: none !important;
+    border-radius: 4px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+#downimg span {
+    margin:0px 5px;
+    font-weight:100;
+    font-size:1.1em
+}
+#downimg img {
+    vertical-align:middle;
+}
+#imgnotes {
+    font:.9em/1.2em Helvetica;
+    margin-top:.2em;
+}
+#imgnotes .label,#gridinfo .label {
+    float:left;
+    width:130px;
+    font-weight:bold;
+}
+#gridinfo .content,#imgnotes .content {
+    float:left;
+    width:150px;
+}
+#gridinfo .content .subtext{
+    font-size:small;
+    font-style:italic;
+}
+#gridinfowrapper {
+    float:left;
+}
+#gridinfo {
+    width:300px;
+    border:1px solid #DDDDDD;
+    background-color:#EEEEEE;
+    padding:5px 10px;
+}
+#gridinfo .divrow {
+    clear:both;
+}
+#rightdiv {
+    float:left;
+    padding:5px;
+}
+#rightdiv h4 {
+    border-bottom:1px solid #002288;
+}
+#gridserverform {
+    font-size:.8em;
+    line-height:1.2em;
+    font-weight:400;
+}
+#gridform {
+    width:300px;
+    float:left;
+    margin: 0px 10px;
+}
+#gridform .divrow {
+    clear:both;
+    width:300px;
+    padding:0px 5px;
+    margin-bottom:15px;
+}
+.dgridbutton {
+    background:#002288 !important;
+    color:white !important;
+}
+#mask-desc {
+    background-color:#EEEEEE;
+    border:1px solid #DDDDDD;
+    padding: 2px 5px;
+    margin:2px;
+    min-height: 50px;
+}
+#mask-desc div {
+    font-style:italic;
+    color:gray;
+}
+#subbutton {
+    margin: 5px;
+    font-size:1.1em;
+}
+#subbutton input {
+    font-size:1.2em;
+}
+#mapcwrapper {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+}
+#mapcwrapper #mapc {
+    border: 1px solid #002288;
+    height: 100%;
+    margin: 0 10px 2em 0;
+    width: 100%;
+}
+.boundscontainer {
+    float: left;
+}
+.boundscontainer .title {
+    line-height:1.2em;
+    font-weight:700;
+    font-size:1.1em;
+    padding-left:5px;
+}
+.boundscontainer .instructions {
+    width:180px;
+    font-size:.9em;
+    line-height:1em;
+    padding:0px 5px 5px 5px;
+}
+.boundscontainer .focussitecontainer {
+    width: 100%;
+    position: relative;
+    text-align:center
+}
+.boundscontainer .focussitecontainer div {
+    margin: 0 auto;
+    width:190px;
+    text-align:left;
+}
+.boundscontainer .focussitecontainer select {
+    width:190px;
+    margin-bottom:5px;
+}
+#bounds {
+    line-height:1em;
+}
+#bounds .nsbounds {
+    margin: 0px auto;
+    width: 75px;
+}
+#bounds .webounds {
+    margin: 0px auto;
+    width: 170px;
+}
+#bounds .wespacer {
+    float:left;
+    display:block;
+    width:16px;
+    height:16px;
+}
+#img {
+    float:left;
+}
+.gmrtlink {
+    position:absolute;
+    bottom:0px;
+    left:5px;
+    font-size:.9em;
+}
+#downloadprofile {
+    display: none;
+}

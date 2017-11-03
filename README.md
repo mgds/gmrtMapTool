@@ -4,7 +4,7 @@ The GMRT MapTool provides access to the Global Multi-Resolution Topography (GMRT
 
 ## Releases and Downloads
 
-+ 3.0.0 - Released October 31, 2017. Initial public release of GMRT MapTool code.  Cooncides with major update to tool to enable access to South Polar and North Polar GMRT tilesets.
++ 3.0.0 - Released October 31, 2017. Initial public release of GMRT MapTool code.  Coincides with major update to tool to enable access to South Polar and North Polar GMRT tilesets.
 
 ## Demo
 

@@ -17,7 +17,7 @@ Check out the GMRT MapTool in action at:
 ## Features
 
 + Mercator projection uses Google Maps as the map client, Polar versions use Open Layers
-+ Leverages the Global Multi-Resolution Topography ([GMRT](http://gmrt.marine-geo.org)) Basemap and serveral [web services](http://www.marine-geo.org/tools/web_services.php#gmrt)
++ Leverages the Global Multi-Resolution Topography ([GMRT](http://gmrt.marine-geo.org)) Basemap and several [web services](http://www.marine-geo.org/tools/web_services.php#gmrt)
 
 ## Requirements
 

@@ -26,7 +26,7 @@ Check out the GMRT MapTool in action at:
 + jQuery 1.9.1
 
 ## Installation
-
+Coming soon!
 
 
 ## Issues

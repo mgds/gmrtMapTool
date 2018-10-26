@@ -1,6 +1,6 @@
 # gmrtMapTool
 
-The GMRT MapTool provides access to the [Global Multi-Resolution Topography (GMRT) Synthesis](http://gmrt.marine-geo.org) which is maintained as part of the IEDA Marine Geoscience Data System ([MGDS](http://www.marine-geo.org)).  GMRT provides access to gridded multibeam data acquired primarily with the US Academic research fleet throughout the global oceans. Multibeam data are processed, curated and synthesized into GMRT at at least 100-m resolution and are seamlessly blended with additional elevation sources including the GEBCO 2014 global compilation, gridded data sets from individual researchers, and global elevation data from NASA. For North Polar, GMRT utilizes the International Bathymetric Chart of the Arctic Ocean (IBCAO) and for South Polar the International Bathymetric Chart of the Southern Ocean (IBCSO) for 500-m resolution data between 100-m resolution multibeam data. GMRT is a tiled compilation that is updated twice a year. GMRT provides access to grids, images, and metadata as well as services for extracting points and profiles from the elevation data. GMRT MapTool interface relies on [web services](http://www.marine-geo.org/tools/web_services.php#gmrt), but GMRT can also be accessed through the freely available java application [GeoMapApp](http://www.geomapapp.org).
+The GMRT MapTool provides access to the [Global Multi-Resolution Topography (GMRT) Synthesis](https://www.gmrt.org) which is maintained as part of the IEDA Marine Geoscience Data System ([MGDS](http://www.marine-geo.org)).  GMRT provides access to gridded multibeam data acquired primarily with the US Academic research fleet throughout the global oceans. Multibeam data are processed, curated and synthesized into GMRT at at least 100-m resolution and are seamlessly blended with additional elevation sources including the GEBCO 2014 global compilation, gridded data sets from individual researchers, and global elevation data from NASA. For North Polar, GMRT utilizes the International Bathymetric Chart of the Arctic Ocean (IBCAO) and for South Polar the International Bathymetric Chart of the Southern Ocean (IBCSO) for 500-m resolution data between 100-m resolution multibeam data. GMRT is a tiled compilation that is updated twice a year. GMRT provides access to grids, images, and metadata as well as services for extracting points and profiles from the elevation data. GMRT MapTool interface relies on [web services](https://www.gmrt.org/services/index.php), but GMRT can also be accessed through the freely available java application [GeoMapApp](http://www.geomapapp.org).
 
 ## Releases and Downloads
 
@@ -9,15 +9,15 @@ The GMRT MapTool provides access to the [Global Multi-Resolution Topography (GMR
 ## Demo
 
 Check out the GMRT MapTool in action at: 
-+ http://www.marine-geo.org/tools/GMRTMapTool (Mercator)
-+ http://www.marine-geo.org/tools/GMRTMapTool/sp (South Polar)
-+ http://www.marine-geo.org/tools/GMRTMapTool/np (North Polar)
++ https://www.gmrt.org/GMRTMapTool/ (Mercator)
++ https://www.gmrt.org/GMRTMapTool/sp/ (South Polar)
++ https://www.gmrt.org/GMRTMapTool/np/ (North Polar)
 
 
 ## Features
 
 + Mercator projection uses Google Maps as the map client, Polar versions use Open Layers
-+ Leverages the Global Multi-Resolution Topography ([GMRT](http://gmrt.marine-geo.org)) Basemap and several [web services](http://www.marine-geo.org/tools/web_services.php#gmrt)
++ Leverages the Global Multi-Resolution Topography ([GMRT](https://www.gmrt.org)) Basemap and several [web services](https://www.gmrt.org/services/index.php)
 
 ## Requirements
 
